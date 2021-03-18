@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
+    // declaration tells typescript to generate the typings
     "declaration": true,
     "strictNullChecks": true,
     "target": "es5",
+    // outDir is the location of the complied files
     "outDir": "dist",
+    // rootDir is the root folder for the source files
     "rootDir": "src",
     "module": "commonjs",
     "moduleResolution": "node",
+    // sourceMap allows us to debug the typescript code directly
     "sourceMap": true,
     "lib": ["es2015", "dom"]
   },

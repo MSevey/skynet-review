@@ -20,6 +20,14 @@
     "registry",
     "skapp"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSevey/skynet-review.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MSevey/skynet-review/issues"
+  },
+  "homepage": "https://github.com/MSevey/skynet-review#readme",
   "author": "Matthew Sevey <mjsevey@gmail.com>",
   "license": "ISC",
   "devDependencies": {
