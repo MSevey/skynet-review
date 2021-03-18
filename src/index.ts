@@ -1,6 +1,8 @@
-import { SkynetClient, genKeyPairFromSeed } from "skynet-js";
+import { SkynetClient, genKeyPairFromSeed, defaultPortalUrl } from "skynet-js";
 
-const client = new SkynetClient("https://siasky.net");
+// Try and set the portal for local development
+const portal = process.env.REACT_APP_PORTAL_URL || defaultPortalUrl();
+const client = new SkynetClient(portal);
 
 interface Review {
   avatarLink?: string;
